@@ -59,9 +59,9 @@ Folders further down the list are added as I reach them — a folder without a n
 This infographic illustrates a geometric derivation of Bayes' theorem from the relationship between joint and conditional probabilities. The mathematical derivation follows the standard formulation described in the [Wikipedia article on Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem), while the infographic itself was recreated and redesigned for educational use in this repository.
 
 <div align="center">
-  <img src="assets/Visual proof of Bayes' theorem.png" width="85%" alt="Visual proof of Bayes' theorem">
+  <img src="assets/bayes_visual_proof.png" width="85%" alt="Visual proof of Bayes' theorem">
 </div>
 
 ## Status
 
-Actively being built out. Notebooks are added as I work through each topic — this is a learning log, not a polished benchmark.
+Actively being developed. New notebooks and practical examples are added as the project progresses.
