@@ -21,14 +21,14 @@ In a bioinformatics setting, `A` might be "this cell is a T cell" and `B` might 
 ## Where this comes up in the field
 
 **Challenges**
-- ❌ **Misinterpretation** — without a solid grasp of the theorem, it's easy to misread posterior probabilities and draw faulty conclusions from noisy data.
-- ❌ **Overlooking prior knowledge** — ignoring or misspecifying priors can lead to misleading or poorly calibrated conclusions, particularly when data are limited, as is often the case in single-cell and microbiome studies.
-- ❌ **Computational complexity** — exact Bayesian inference is often intractable at scale, requiring MCMC or variational methods and the tooling to run them.
+-  **Misinterpretation** — without a solid grasp of the theorem, it's easy to misread posterior probabilities and draw faulty conclusions from noisy data.
+-  **Overlooking prior knowledge** — ignoring or misspecifying priors can lead to misleading or poorly calibrated conclusions, particularly when data are limited, as is often the case in single-                                       cell and microbiome studies.
+-  **Computational complexity** — exact Bayesian inference is often intractable at scale, requiring MCMC or variational methods and the tooling to run them.
 
 **Opportunities**
-- ✅ **Better decision-making** — Bayesian reasoning underlies clinical risk prediction, variant classification, and diagnostic modelling.
-- ✅ **Better predictive models** — Bayesian hierarchical models let information be shared across samples, genes, or cell types rather than treating each independently.
-- ✅ **Honest uncertainty** — a posterior distribution says how confident a result is, not just what the point estimate is, which matters a great deal in clinical and translational settings.
+-  **Better decision-making** — Bayesian reasoning underlies clinical risk prediction, variant classification, and diagnostic modelling.
+-  **Better predictive models** — Bayesian hierarchical models let information be shared across samples, genes, or cell types rather than treating each independently.
+-  **Honest uncertainty** — a posterior distribution says how confident a result is, not just what the point estimate is, which matters a great deal in clinical and translational settings.
 
 ## Tools
 
