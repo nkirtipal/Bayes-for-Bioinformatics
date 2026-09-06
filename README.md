@@ -56,10 +56,10 @@ Folders further down the list are added as I reach them — a folder without a n
 
 ## Visual proof
 
-The figure below is a standard geometric proof of Bayes' theorem, illustrating how `P(A)·P(B|A)` and `P(B)·P(A|B)` both equal the probability of the intersection `P(A∩B)`, from which the theorem follows directly. Based on the widely used Venn-diagram proof of Bayes' theorem originating on Wikipedia (CC BY-SA); recreated here for this repo.
+This infographic illustrates a geometric derivation of Bayes' theorem from the relationship between joint and conditional probabilities. The mathematical derivation follows the standard formulation described in the [Wikipedia article on Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem), while the infographic itself was recreated and redesigned for educational use in this repository.
 
 <div align="center">
-<img src="assets/bayes_visual_proof.png" width="70%" alt="Geometric visual proof of Bayes' theorem">
+  <img src="assets/bayes_visual_proof.png" width="85%" alt="Visual proof of Bayes' theorem">
 </div>
 
 ## Status
