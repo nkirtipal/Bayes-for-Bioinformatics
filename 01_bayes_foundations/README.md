@@ -15,9 +15,9 @@ The notebook builds up to an answer piece by piece:
 3. Evidence — `P(CD3)`, via the law of total probability
 4. Posterior — `P(T cell | CD3)`
 5. Bayes' theorem, stated formally
-6. A numerical example, worked by hand over 1,000 cells
+6. A numerical example using 1,000 cells
 7. A Python simulation confirming the theoretical result empirically
 8. A bar chart visualizing the belief update
-9. A sweep over the prior, showing how the same marker behaves very differently for a common vs. a rare cell type
+9. Changing the prior, showing how the same evidence leads to different posterior probabilities for common vs. rare cell types
 
-The last section is the one that matters most going forward: it shows why a strong, specific marker still leaves real uncertainty when the target population is rare — the exact failure mode that reference-based annotation tools (and, later in this repo, LLM-based annotation) have to contend with.
+The last section is especially useful: it shows why the same evidence can lead to very different posterior beliefs depending on how common the target cell type is.
